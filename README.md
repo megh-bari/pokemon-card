@@ -8,7 +8,7 @@ A sleek web app to discover and explore Pokémon with detailed stats, abilities,
 
 ## Live
 
-Check out the live demo here: [Pokémon Card Explorer](https://pokemon-card.vercel.app)
+Check out the live demo here: [Pokémon Card Explorer](https://pokemon-card-explore.vercel.app/)
 
 ---
 
