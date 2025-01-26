@@ -19,8 +19,8 @@ const Loading = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center min-h-screen">
-      <div className="text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#FF6B6B] via-[#FF9A00] to-[#FFD93D]">
+    <div className="flex justify-center items-center min-h-screen p-4">
+      <div className="text-4xl md:text-5xl lg:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#FF6B6B] via-[#FF9A00] to-[#FFD93D] text-center">
         {translations[currentTranslation]}
       </div>
     </div>

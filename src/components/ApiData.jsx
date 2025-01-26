@@ -80,19 +80,20 @@ const ApiData = () => {
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-4 drop-shadow-xl leading-tight bg-clip-text text-transparent bg-gradient-to-r from-[#FF6B6B] via-[#FF9A00] to-[#FFD93D]">
             Let's Catch Pokemon
           </h1>
+
           <p className="text-lg md:text-xl font-medium opacity-90 max-w-xl mx-auto mb-4">
             Discover and explore the vast and exciting world of Pokemon!
           </p>
         </div>
 
         <form>
-          <div className="mb-10">
+          <div className="mb-10 text-white">
             <input
               type="text"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Find Pokemon"
-              className={`w-full max-w-xs sm:max-w-md py-3 px-4 rounded-md text-white bg-[#151030] border border-transparent focus:outline-none focus:ring-1 focus:ring-blue-500 transition duration-200`}
+              className={`w-full max-w-xs sm:max-w-md text-white py-3 px-4 rounded-md  bg-[#151030] border border-transparent focus:outline-none focus:ring-1 focus:ring-blue-500 transition duration-200`}
             />
           </div>
         </form>
@@ -138,7 +139,7 @@ const ApiData = () => {
               they might not be showing up due to the large amount of data from
               the API."
               <br />
-               Please try a different search!
+              Please try a different search!
             </p>
           </div>
         )}
